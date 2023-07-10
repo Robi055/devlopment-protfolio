@@ -1,7 +1,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-.baton-primary{
+.button-primary{
     border-radius: 5px;
     background: #FD6E0A;
     color: var(--white-color, #FFF);
@@ -16,7 +16,7 @@ body{
 }
 
 .protfolio-title{
-    color: #181818;
+color: #181818;
 font-size: 45px;
 font-style: normal;
 font-weight: 800;
@@ -26,6 +26,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 
 }
 nav li{
@@ -41,4 +42,61 @@ nav>ul{
 nav a{
     text-decoration: none;
     color: cornflowerblue;
+}
+.header{
+    background-color: #FFF8F3;;
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner .profile-picture{
+    width: 400px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.banner-tittle{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+.banner-discription{
+    font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-top: 10px;
+}
+
+.about{
+    padding: 200px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+.section-tittle{
+    color:  #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+
+}
+.section-discription{
+    color:  #757575;
+    font-size: 18px;
+font-weight: 400;
+line-height: 30px;
 }
